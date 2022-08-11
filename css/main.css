@@ -889,12 +889,14 @@ img {
         margin-top: 24px;
     }
 
-    .headernav-ul {
+    .headernavul {
+        display: flex;
         margin-top: 24px;
+        list-style: none;
         justify-content: center;
         margin-bottom: 164px; 
     }
-
+    
     .footer-ul {
         position: absolute;
         display: block;
