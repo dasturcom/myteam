@@ -890,12 +890,11 @@ img {
     }
 
     .headernav-ul {
-        display: flex;
         margin-top: 24px;
         justify-content: center;
         margin-bottom: 164px; 
     }
-    
+
     .footer-ul {
         position: absolute;
         display: block;
