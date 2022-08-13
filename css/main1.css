@@ -234,9 +234,318 @@ img {
     }
 }
 
+/* Section */
+.secondpart {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.secondpart-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.span-line {
+    width: 50px;
+    height: 4px;
+    display: block;
+    margin-bottom: 54px;
+    background-color: #F67E7E;
+}
+
+.teams-div {
+    width: 445px;
+}
+
+.teams-div-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    margin-bottom: 16px;
+}
+
+.teams {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #F67E7E;
+}
+
+.secondpart-div-ul {
+    list-style: none;
+}
+
+.secondpart-div-li {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.secondpart-div-li::before {
+    display: block;
+    content: "";
+    width: 72px;
+    height: 72px;
+    margin-right: 23px;
+    background-image: url(../img/Group.svg);
+}
+.li1::before {
+    display: block;
+    content: "";
+    width: 72px;
+    height: 72px;
+    margin-right: 23px;
+    background-image: url(../img/Group12.svg);
+}
+.li2::before {
+    display: block;
+    content: "";
+    width: 72px;
+    height: 72px;
+    margin-right: 23px;
+    background-image: url(../img/Group13.svg);
+}
+
+.li-div {
+    width: 445px;
+}
+
+.li-div-p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
 
 
+/* Teblet */
+@media only screen and (max-width: 768px) {
+    .secondpart {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .secondpart-div {
+        display: block;
+        padding-left: 98px;
+    }
+    
+    .span-line {
+        margin-bottom: 32px;
+    }
+    
+    .teams-div {
+        margin-bottom: 64px;
+    }
+    
+    .teams-div-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
 
+
+/* Mobile */
+@media only screen and (max-width: 576px) {
+    .secondpart {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    
+    .secondpart-div {
+        padding-left: 24px;
+        padding-right: 24px;
+        display: block;
+    }
+    
+    .teams-div {
+        width: 240px;
+        margin-bottom: 56px;
+    }
+    
+    .teams-div-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .secondpart-div-ul {
+        list-style: none;
+    }
+    
+    .secondpart-div-li {
+        width: 100%;
+        max-width: 350px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        display: flex;
+        /* text-align: center; */
+        margin-top: 56px;
+        margin-bottom: 48px;
+    }
+
+    .secondpart-div-li::before {
+        display: block;
+        content: "";
+        width: 100px;
+        height: 72px;
+        margin-right: 28px;
+    }
+    
+    /* .secondpart-div-li::before {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .li1::before {
+        margin-right: auto;
+    }
+    .li2::before {
+        margin-right: auto;
+    } */
+    
+    .li-div {
+        width: 100%;
+        max-width: 325px;
+    }
+}
+
+/* from */
+.from {
+    margin-left: 32px;
+}
+.from-input {
+    width: 445px;
+    padding: 16px;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.email {
+    color: #F67E7E;
+}
+
+.input {
+    margin-bottom: 58px;
+}
+
+.span {
+    width: 540px;
+    height: 1px;
+    cursor: pointer;
+    background-color: #fff;
+    display: block;
+}
+.span:hover {
+    cursor: pointer;
+    background-color: #79C8C7;
+    display: block;
+}
+.span:hover {
+    cursor: pointer;
+    background-color: #F67E7E;
+    display: block;
+}
+
+.submit {
+    padding: 9px 32px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    transition: all 0.5s linear;
+}
+.submit:hover {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #79C8C7;
+}
+.submit:active {
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 768px) {
+    .from {
+        margin-left: 0;
+    }
+    .from-input {
+        width: 100%;
+        max-width: 445px;
+        padding: 16px;
+        display: block;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+    }
+    .submit:hover {
+        box-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #79C8C7;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .from {
+        margin-left: 0px;
+    }
+    .from-input {
+        width: 100%;
+        max-width: 445px;
+        padding: 16px;
+        display: block;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+    }
+    
+    .email {
+        color: #F67E7E;
+    }
+    
+    .input {
+        margin-bottom: 58px;
+    }
+    
+    .span {
+        width: 100%;
+        max-width: 540px;
+        height: 1px;
+        cursor: pointer;
+        background-color: #fff;
+        display: block;
+    }
+    .span:hover {
+        cursor: pointer;
+        background-color: #79C8C7;
+        display: block;
+    }
+    .span:hover {
+        cursor: pointer;
+        background-color: #F67E7E;
+        display: block;
+    }
+    
+    .submit {
+        padding: 9px 32px;
+        margin-top: 24px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;
+        transition: all 0.5s linear;
+    }
+    .submit:hover {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #79C8C7;
+    }
+    .submit:active {
+        opacity: 0.3;
+    }
+}
 
 
 
