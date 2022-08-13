@@ -502,6 +502,7 @@ img {
     margin-right: 58px;
 }
 
+
 @media only screen and (max-width: 768px) {
     .section3 {
         padding-top: 100px;
@@ -532,6 +533,7 @@ img {
         height: 30px;
     }
 }
+
 @media only screen and (max-width: 568px) {
     .section3 {
         height: 655px;
