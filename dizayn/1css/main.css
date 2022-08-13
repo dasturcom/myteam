@@ -233,3 +233,174 @@ img {
         background: transparent;
     }
 }
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #002529;
+}
+.footer-div-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headernavul {
+    display: flex;
+    list-style: none;
+}
+
+.headernavli:last-child {
+    margin-left: 40px;
+}
+
+.nav {
+    margin-top: 25px;
+}
+
+.footerdiv {
+    display: flex;
+}
+
+.footer-logo {
+    margin-right: 125px;
+}
+
+.footer_div {
+    opacity: 0.6;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.div {
+    margin-left: 170px;
+}
+
+.p {
+    margin-top: 51px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+/* Teblet */
+@media only screen and (max-width: 768px) {
+    .footer {
+        position: relative;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-color: #002529;
+    }
+    .footer-div-container {
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .nav {
+        margin-top: 53px;
+    }
+
+    .footer-li {
+        position: absolute;
+        width: 200px;
+    }
+    
+    .footer_div {
+        margin-left: auto;
+        margin-bottom: 40px;
+        text-align: right;
+    }
+
+    .footer-li-div {
+        margin-top: 34px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .div {
+        margin-left: 0;
+    }
+    
+    .p {
+        margin-top: 0px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        opacity: 0.6;
+    }
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 568px) {
+    .footer {
+        padding-top: 66px;
+        padding-bottom: 64px;
+    }
+    .footer-div-container {
+        display: block;
+        text-align: center;
+    }
+    
+    .nav {
+        margin-top: 24px;
+    }
+
+    .headernavul {
+        display: flex;
+        margin-top: 24px;
+        list-style: none;
+        justify-content: center;
+        margin-bottom: 24px; 
+    }
+
+    .footer-li-div {
+        display: inline;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-right: 0px;
+    }
+
+    .footerdiv {
+        display: block;
+    }
+    
+    .footer_div {
+        margin-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .div {
+        width: 110px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .p {
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        opacity: 0.6;
+    }
+}
