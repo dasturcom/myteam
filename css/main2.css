@@ -361,7 +361,14 @@ img {
     padding: 32px;
     margin-top: 76px;
     background-color: #012F34;
+    transition: all 0.5s linear;
 }
+
+.section2-li:hover {
+    background-color: #012f34ad;
+    box-shadow: 0 0 30px #fff, 0 0 20px #004047, 0 0 40px #fff;
+}
+
 .section2-img {
     width: 96px;
     height: 96px;
@@ -411,6 +418,11 @@ img {
         margin-right: 11px;
     }
 
+    .section2-li:hover {
+        background-color: #012f34ad;
+        box-shadow: 0 0 0px #fff, 0 0 0px #004047, 0 0 0px #fff;
+    }
+
     .section2-li:nth-child(1) {
         margin-top: 0;
     }
@@ -452,6 +464,11 @@ img {
         max-width: 350px;
         margin-top: 76px;
         margin-right: 11px;
+    }
+
+    .section2-li:hover {
+        background-color: #012f34ad;
+        box-shadow: 0 0 0px #fff, 0 0 0px #004047, 0 0 0px #fff;
     }
 
     .section2-li:nth-child(1) {
