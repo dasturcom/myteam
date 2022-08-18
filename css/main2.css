@@ -365,8 +365,10 @@ img {
 }
 
 .section2-li:hover {
-    background-color: #012f34ad;
-    box-shadow: 0 0 30px #fff, 0 0 20px #004047, 0 0 40px #fff;
+    width: 350px;
+    background-color: #004047;
+    box-shadow: 0 0 10px #79C8C7, 0 0 20px #79C8C7, 0 0 40px #79C8C7;
+    text-align: center;
 }
 
 .section2-img {
